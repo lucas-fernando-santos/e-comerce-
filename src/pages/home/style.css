@@ -1,0 +1,21 @@
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 8%;
+}
+.perfil img{
+    width: 60px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.notification img,.notification button {
+    width: 20px;
+    background-color: none;
+    border: none;
+}
+.perfilInfo{
+    display: flex;
+    align-items: center;
+}
