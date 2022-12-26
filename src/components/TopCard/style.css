@@ -11,7 +11,7 @@
     } 
     .topcard-container{
         display: flex;
-        margin: 40px 8%;
+        margin: 20px 8%;
         height: 23vh;
         background-image: linear-gradient(to right, rgb(131, 131, 255) , rgba(94, 167, 230, 0.883));
         border-radius: 20px;

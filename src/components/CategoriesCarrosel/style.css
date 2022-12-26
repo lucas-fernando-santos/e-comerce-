@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+    ::-webkit-scrollbar {
+        display: none;
+        }
+    .marcas{
+        margin: 0 8%;
+        height: 15vh;
+        overflow: hidden;
+    }
+    .containerElements{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        overflow-y: scroll;
+    }
+    
+    .containerElements button{
+        padding: 5px 20px;
+        margin-right: 15px;
+        border-radius: 5px;
+        width: 100px;
+        border: none;
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+}
