@@ -19,18 +19,14 @@ const categorias = [
     },
     {
         id: 4,
-        name: 'Adidas'
-    },
-    {
-        id: 5,
         name: 'Tesla'
     },
     {
-        id: 6,
+        id: 5,
         name: 'LV'
     },
     {
-        id: 7,
+        id: 6,
         name: 'New Balance'
     },
 ]

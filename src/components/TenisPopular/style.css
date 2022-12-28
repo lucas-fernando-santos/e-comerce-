@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+    .TenisPopular{
+    width: 320px;
+    height: 200px; 
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    z-index: 20;
+    }
+    .ContainerTenisPopular{
+        display: flex;
+        margin: 20px 8%;
+        height: 35vh;
+        flex-direction: column;
+    }
+    .mainTenis{
+        display: flex;
+        align-items: center;
+    }
+    .TenisPopularLogo{
+        height: 300;
+        width: 180;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .conte{
+        border-radius: 10px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        background-color: #fff;
+    }
+    .footerTenisPopular{
+     margin-top: 10px;   
+     display: flex;
+     justify-content: space-between;
+    }
+    .textFooterTenis{
+        width: 180px;
+        height: 70px;
+        margin-left: 6px;
+    }
+    .textFooterTenis h2{
+        font-size: 20px;
+    }
+    .footerTenisPopular button{
+        padding: 15px 20px;
+        background-image: linear-gradient(to right, rgb(131, 131, 255) , rgba(94, 167, 230, 0.883));
+        margin-right: 15px;
+        border-radius: 10px;
+        border: none;
+    }
+}
