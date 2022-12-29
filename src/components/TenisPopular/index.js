@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 import './style.css'
 import logonike from '../../assets/svgs/logonike.svg'
 import logoAdidas from '../../assets/svgs/logoadidas.svg'
@@ -32,9 +32,22 @@ const popularTenis = [
   }
 ]
 
-const TenisPopular = () => {
+const TenisPopular = () =>{
+  const [dados, setDados] = useState([
+    
+  ]);
+  const selecionaObj = (item) => {
+    setDados([...dados,item])
+  }
+  useEffect(() => {
+    const salvarLocal = () => {
+      localStorage.setItem()
+    }
+  }, [dados]);
+  //tentando resolver isso
   return (
     <>
+    <button onClick={()=> alert(dados)}>ola</button>
       <div className="ContainerTenisPopular">
         <div className="Logo"><h2>popular</h2></div>
         <div className="carrossel-tenispopular">
@@ -52,7 +65,7 @@ const TenisPopular = () => {
                     <h2>{item.titulo}</h2>
                     <span>{item.descrição}</span>
                   </div>
-                  <button><img src={carrinho} /></button>
+                  <button onClick={()=> selecionaObj(item) }><img src={carrinho} /></button>
                 </div>
               </div>
             ))}

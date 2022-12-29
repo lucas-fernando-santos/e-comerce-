@@ -37,7 +37,7 @@ const TopCard = () => {
                     <div className='topcard-container'>
                         <img className='logomarcas-topcard' src={item.logo} />
                         <div className="containerText">
-                            <span>Seus pes merecem esse conforto</span><br />
+                            <span><strong> Seus pés merecem esse mimo </strong></span><br />
                             <button className='topcard-button'><strong>Veja Mais</strong></button>
                         </div>
                         <img src={item.tenis} className='containerTenis' /></div>

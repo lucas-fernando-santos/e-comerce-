@@ -1,19 +1,22 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 import './App.css'
-import CategoriesCarrosel from './components/CategoriesCarrosel'
-import TenisPopular from './components/TenisPopular'
 import Home from './pages/home'
-import Navbar from './components/Navebar'
 const App = () => {
   return (
     <>
-    <Navbar/>
+
+    <Router>
+      <Routes>
+        <Route path='/'element={<Home/>} />
+        <Route path='/index'element={<Home/>} />
+      </Routes>
+    </Router>
+ 
     </>
   )
 }
 
 
-/*<Home/>
-<CategoriesCarrosel/>
-<TenisPopular/>*/
 export default App

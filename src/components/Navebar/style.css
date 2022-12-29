@@ -1,3 +1,22 @@
-.imagemNav{
-    width: 120px;
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        position: fixed;
+        width: 100vw;
+        height: 70px;
+        z-index: 100000000;
+        justify-content: space-between;
+        padding: 15px 20px;
+        background-color: white;
+        border-radius: 20px;
+        bottom: 0;
+    }
+    .imagemNav{
+    width: 30px;
+}
+    button{
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
 }

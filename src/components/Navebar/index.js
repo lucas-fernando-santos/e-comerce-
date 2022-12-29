@@ -11,10 +11,10 @@ const Index = () => {
             <img className='imagemNav' src={homeIncon}/>
             </button>
             <button>
-            <img className='imagemNav'src={perfil}/>
-            </button>
-            <button>
             <img className='imagemNav' src={carrinho}/>
+            </button>
+            <button id='perfil'>
+            <img className='imagemNav'  src={perfil}/>
             </button>
         </div>
         </>

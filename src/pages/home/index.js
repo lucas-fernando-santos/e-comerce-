@@ -3,6 +3,10 @@ import './style.css'
 import notificação from '../../assets/notificationOff.svg'
 import TopCard from '../../components/TopCard'
 
+import CategoriesCarrosel from '../../components/CategoriesCarrosel'
+import TenisPopular from '../../components/TenisPopular'
+import Navbar from '../../components/Navebar'
+
 const index = () => {
   return (
     <>
@@ -22,6 +26,12 @@ const index = () => {
     <main>
        <TopCard/>
     </main>
+    <CategoriesCarrosel/>
+    <TenisPopular/> <TenisPopular/>
+    <div style={{marginBottom:'70px'}}>
+      
+    </div>
+    <Navbar/>
     </>
   )
 }
