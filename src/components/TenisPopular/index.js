@@ -38,16 +38,23 @@ const TenisPopular = () =>{
   ]);
   const selecionaObj = (item) => {
     setDados([...dados,item])
+    salvarLocal([...dados,item])
   }
   useEffect(() => {
-    const salvarLocal = () => {
-      localStorage.setItem()
-    }
   }, [dados]);
+  const salvarLocal = (data) => {
+    localStorage.setItem('carrinho',JSON.stringify(data));
+   
+  }
+  const clearLocal = () => {
+    localStorage.clear('carrinho',JSON.stringify(dados));
+  }
+  const valorCarrinho = localStorage.getItem('carrinho');
+
   //tentando resolver isso
   return (
     <>
-    <button onClick={()=> alert(dados)}>ola</button>
+   
       <div className="ContainerTenisPopular">
         <div className="Logo"><h2>popular</h2></div>
         <div className="carrossel-tenispopular">

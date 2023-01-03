@@ -8,10 +8,10 @@ const Index = () => {
         <>
         <div className="navbar">
             <button>
-            <img className='imagemNav' src={homeIncon}/>
+            <a href="/"><img className='imagemNav' src={homeIncon}/></a>
             </button>
             <button>
-            <img className='imagemNav' src={carrinho}/>
+           <a href="/carrinho"><img className='imagemNav' src={carrinho}/></a> 
             </button>
             <button id='perfil'>
             <img className='imagemNav'  src={perfil}/>

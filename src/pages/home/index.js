@@ -27,7 +27,7 @@ const index = () => {
        <TopCard/>
     </main>
     <CategoriesCarrosel/>
-    <TenisPopular/> <TenisPopular/>
+    <TenisPopular/> 
     <div style={{marginBottom:'70px'}}>
       
     </div>
