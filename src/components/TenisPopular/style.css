@@ -68,3 +68,71 @@
         border: none;
     }
 }
+@media only screen and (min-width: 1200px) {
+    .TenisPopular{
+        width: 270px;
+        height: 150px; 
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        z-index: 20;
+        }
+        .carrossel-tenispopular{
+            width: 1200px;
+            overflow: scroll;
+        }
+        .ContainerTenisPopular{
+            display: flex;
+            margin: 20px 8%;
+            height: 50vh;
+            flex-direction: column;
+            margin-bottom: 20vh;
+        }
+        .mainTenis{
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .TenisPopularLogo{
+            height: 300;
+            width: 180;
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        .conte{
+            display: flex;
+            flex-direction: row;
+            border-radius: 10px;
+            justify-content: space-between;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            background-color: #fff;
+        }
+        .tenisItem{
+            display: flex;
+            flex-direction: column
+            ;
+        }
+        .footerTenisPopular{
+         margin-top: 10px;   
+         display: flex;
+         justify-content: space-between;
+        }
+        .textFooterTenis{
+            width: 180px;
+            height: 70px;
+            margin-left: 6px;
+        }
+        .textFooterTenis h2{
+            font-size: 20px;
+        }
+        .footerTenisPopular button{
+            padding: 15px 20px;
+            background-image: linear-gradient(to right, rgb(131, 131, 255) , rgba(94, 167, 230, 0.883));
+            margin-right: 15px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+}

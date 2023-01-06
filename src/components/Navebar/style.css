@@ -20,3 +20,26 @@
         padding: 0;
     }
 }
+@media only screen and (min-width: 1200px) {
+    .navbar{
+        display: flex;
+        position: fixed;
+        width: 6vw;
+        height: 100vh;
+        flex-direction: column;
+        z-index: 100000000;
+        justify-content: space-between;
+        padding: 15px 20px;
+        background-color: white;
+        border-radius: 20px;
+        bottom: 0;
+    }
+    .imagemNav{
+    width: 30px;
+}
+    button{
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+}
