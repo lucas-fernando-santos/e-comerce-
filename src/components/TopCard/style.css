@@ -21,6 +21,7 @@
         display: flex;
         position: relative;
         margin: 5px 0px 0px 0px;
+        margin-right: 20px;
         height: 20vh;
         background-image: linear-gradient(to right, rgb(131, 131, 255) , rgba(94, 167, 230, 0.883));
         border-radius: 20px;
