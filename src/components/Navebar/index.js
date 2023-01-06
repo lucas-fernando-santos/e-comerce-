@@ -13,9 +13,9 @@ const Index = () => {
             <button>
            <a href="/carrinho"><img className='imagemNav' src={carrinho}/></a> 
             </button>
-            <button id='perfil'>
+           <a href="/perfil"> <button id='perfil'>
             <img className='imagemNav'  src={perfil}/>
-            </button>
+            </button></a>
         </div>
         </>
     );

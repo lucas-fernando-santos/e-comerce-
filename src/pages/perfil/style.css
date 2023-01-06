@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    .connterPerfil{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 250px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .connterPerfil img{
+        border-radius: 100%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .connterPerfil span {
+        font-size: 30px;
+    }
+    .fundo{
+        width: 500px;
+        height: 700px;
+    }
+}

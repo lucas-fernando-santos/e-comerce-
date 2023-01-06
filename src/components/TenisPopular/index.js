@@ -14,21 +14,24 @@ const popularTenis = [
     tenis: tenisNike,
     logo: logonike,
     titulo: 'Nike Jordan Retro',
-    descrição: 'ótimo para uma partida de basket',
+    price:1200,
+    descrição: 'ótimo para uma partida de basket,',
   },
   {
     id: 2,
     tenis: tenisAdidas,
     logo: logoAdidas,
     titulo: 'Adidas Yeezy 500',
-    descrição: 'ótimo para uma corrida com um tenis confortável',
+    price:800,
+    descrição: 'ótimo para uma corrida com um, tenis confortável',
   },
   {
     id: 3,
     tenis: tenisPuma,
     logo: logoPuma,
     titulo: 'Tênis Puma Smash V3 Bdp - Unissex',
-    descrição: 'Melhor opção de tenis casual'
+    price:350,
+    descrição: 'Melhor opção de tenis casual',
   }
 ]
 
